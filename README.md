@@ -7,7 +7,9 @@ We use the following the models: Logistic Regression and Random Forest Classifie
 Before we begin we found that 
 
 0:    2788
+
 1:    1813
+
 Name: spam, dtype: int64
 
 The dataset is uneven and this will be an issue for logistic regression.
