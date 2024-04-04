@@ -6,8 +6,8 @@ The dataset source is from https://static.bc-edx.com/mbc/ai/m4/datasets/spam-dat
 We use the following the models: Logistic Regression and Random Forest Classifier.
 Before we begin we found that 
 
-0    2788
-1    1813
+0:    2788
+1:    1813
 Name: spam, dtype: int64
 
 The dataset is uneven and this will be an issue for logistic regression.
@@ -18,7 +18,7 @@ Calculate the accuracy score by evaluating `y_test` vs. `testing_predictions`.
 accuracy_score(y_test, testing_predections)
 0.9278887923544744
 
-#Random Forest Classifier
+Random Forest Classifier
 Calculate the accuracy score by evaluating `y_test` vs. `testing_predictions`.
 accuracy_score(y_test, rf_predictions
 0.9669852302345786
