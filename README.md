@@ -14,7 +14,7 @@ Name: spam, dtype: int64
 
 The dataset is uneven and this will be an issue for logistic regression.
 
-#Logistic Regression
+Logistic Regression
 
 Calculate the accuracy score by evaluating `y_test` vs. `testing_predictions`.
 accuracy_score(y_test, testing_predections)
